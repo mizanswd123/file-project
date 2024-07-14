@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image{
+     background-image:url("./Hero-bg.png");;
+    text-align: center;
+    padding-top: 50px;
+     }
+
+     .image>h1{
+        font-size: 45px;
+     }
+
+     .image>p{
+        text-align: center;
+        padding-top: 30px;
+     }
+      .btn{
+        text-align: center;
+         padding-top: 30px;
+         padding-bottom: 30px;
+
+      }
+
+     .btn>button{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        color: aliceblue;
+        background-color: rgb(20, 15, 15);
+        border-radius: 5px;
+         }
+         
+         .page-3-h1{
+            padding-top: 50px;
+         }
+         .page-2>h1{
+            text-align: center;
+            font-size: 45px;
+            margin-top: 50px;
+         }
+        
+         .para>p{
+            text-align: center;
+            padding: 25px;
+         }
+
+         .block-1{
+            display: flex;
+            justify-content:space-around;
+            padding-top: 100px;
+             
+         }
+         .part-1>h1,p,button{
+            padding-top:20px;
+            text-align: left;
+         }
+
+          .part-b-1{
+            padding-top: 20px;
+
+          }
+          .part-b-1>button{
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 5px;
+
+          }
+
+          .block-2{
+            display: flex;
+            justify-content:space-around;
+            padding-top: 150px;
+         }
+          
+        .part-b-2>button{
+            padding: 15px;
+            font-size: 20px;
+            border-radius: 5px;
+            
+        }
+
+
+        .part-b-2{
+            padding-top: 20px;
+             
+
+          }
+
+
+         .block-3{
+            display: flex;
+            justify-content:space-around;
+            padding-top: 150px;
+         }
+
+         .page-3-h1>h1{
+            text-align: center;
+            padding:20px;
+        }
+    .page-3-h1>p{
+        text-align: center;
+    }
+         
+        .page-h1-p>p{
+            text-align: center;
+        }
+
+         .iframe{
+            text-align:center;
+            padding:50px;
+            }
+
+         .page-h1-p{
+            text-align: center;
+            padding: 20px;
+         }
+          
+              /* last black */
+
+              .last-block{
+                display: flex;
+                justify-content:space-around;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                 
+              }
+
+               
+              .last-b-1{
+                
+                padding-left: 50px;
+              }
+              .last-b-1>img{
+                padding-bottom: 15px;
+              }
+              .last-b-1>p{
+                padding-bottom: 15px;
+              }
+
+              .last-b-2>img{
+                padding-bottom: 15px;
+              }
+              .last-b-2>p{
+                padding-bottom: 15px;
+              }
+
+
+              .last-b-3>img{
+                padding-bottom: 15px;
+              }
+
+              .last-b-3>p{
+                padding-bottom: 15px;
+              }
+
+              .last-b-3{
+                 
+                padding-right: 50px;
+              }
+
+
+              .last-image{
+                background-image: url(handshake.jpg);
+                border-radius: 10px;
+                 max-width: 90%;
+           
+                   
+                  
+                
+
+              }
+              .last-image>h1{
+                text-align: center;
+                padding-top: 50px;
+                color: aliceblue;
+              }
+              .last-image>p{
+                text-align: center;
+                color: antiquewhite;
+              }
+              .main{
+                display: flex;
+                justify-content: space-between;
+                padding-top: 100px;
+                padding-bottom: 50px;
+              }
+              .text{
+                padding-left: 100px;
+                
+              }
+              .icon{
+                padding-right: 100px;
+              }
+              .icon>img{
+                padding-left: 20px;
+                padding-left: 20px;
+              }
+
+
+              .input{
+                text-align: center;
+                padding-top: 40px;
+                padding-bottom: 40px;
+              }
+
+
+              /* I need section */
+
+
+              #need-support{
+                /* background-image: url(handshake.jpg); */
+                border-radius: 15px;
+              }
+              #need-support .container{
+                background-image:url(handshake.jpg) ;
+                background-size: cover;
+                background-position: center;
+                width: 1140px;
+                margin: auto;
+                border-radius: 10px;
+
+              }
+              .title{
+                text-align: center;
+                color: aliceblue;
+                padding: 10px;
+                font-size: 40px;
+              }
+
+
+            .discription{
+              text-align: center;
+              color: antiquewhite;
+              font-size: 20px;
+              padding: 10px;
+            }
+
+
+            #need-support form {
+              width: 100%;
+              display: flex;
+              gap: 10px;
+              justify-content: center;
+              padding-bottom: 30px;
+              padding-top: 30px;
+          }
+          #need-support form input {
+              border-radius: 8px;
+              border: none;
+          }
+          #need-support form input:first-child {
+              width: 500px;
+              padding: 19px 20px;
+              border: 1px solid rgba(13, 19, 33, 0.15);
+              background: rgb(255, 255, 255);
+              color: rgb(13, 19, 33);
+              font-family: Azeret Mono;
+              font-size: 16px;
+              font-weight: 400;
+              letter-spacing: 0%;
+          }
+          #need-support form input:last-child {
+              padding: 17px 20px;
+              color: rgb(13, 19, 33);
+              font-family: Azeret Mono;
+              font-size: 20px;
+              font-weight: 600;
+              line-height: 23px;
+              letter-spacing: 0%;
+              text-align: center;
+              cursor: pointer;
+          }
